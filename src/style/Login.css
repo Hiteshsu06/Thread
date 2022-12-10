@@ -1,0 +1,123 @@
+.login {
+  width: 100%;
+  padding: 30px 30px 0px 30px;
+}
+.login .login-container {
+  width: 80%;
+  height: 500px;
+  border: none;
+  margin: auto;
+}
+.login .login-container .card-body {
+  display: flex;
+}
+.login .login-container .card-body .login-body-image {
+  position: relative;
+}
+.login .login-container .card-body .login-body-image .login-body-image-front {
+  position: absolute;
+}
+.login .login-container .card-body .login-body-image .login-body-image-front .login-body-image-font-image .login-image-front-frame {
+  margin-left: -10px;
+  margin-top: -25px;
+}
+.login .login-container .card-body .login-body-image .login-body-image-frame .login-image-frame {
+  margin-top: 150px;
+  margin-left: 26px;
+}
+.login .login-container .card-body .login-body-main-form {
+  width: 380px;
+  position: absolute;
+  right: 50px;
+}
+.login .login-container .card-body .login-body-main-form .login-body-form {
+  padding: 20px 20px 10px;
+  border: 1px solid #ddd;
+}
+.login .login-container .card-body .login-body-main-form .login-body-form .login-form-heading {
+  text-align: center;
+  font-size: 45px;
+  font-family: "Special Elite", cursive;
+  font-weight: 800;
+  letter-spacing: 4px;
+}
+.login .login-container .card-body .login-body-main-form .login-body-form .form-floating .form-control {
+  height: 50px;
+  font-size: 0.8rem !important;
+}
+.login .login-container .card-body .login-body-main-form .login-body-form .form-floating .form-control:focus {
+  border-color: #ddd;
+  box-shadow: none;
+}
+.login .login-container .card-body .login-body-main-form .login-body-form .form-floating label {
+  font-size: 13px;
+}
+.login .login-container .card-body .login-body-main-form .login-body-form .form-floating .form-control::-moz-placeholder {
+  font-size: 12px !important;
+}
+.login .login-container .card-body .login-body-main-form .login-body-form .form-floating .form-control:-ms-input-placeholder {
+  font-size: 12px !important;
+}
+.login .login-container .card-body .login-body-main-form .login-body-form .form-floating .form-control::placeholder {
+  font-size: 12px !important;
+}
+.login .login-container .card-body .login-body-main-form .login-body-form .login-button-container .login-button {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.login .login-container .card-body .login-body-main-form .login-body-form .hrline {
+  display: flex !important;
+  justify-content: center;
+}
+.login .login-container .card-body .login-body-main-form .login-body-form .hrline .login-form-hrline {
+  width: 250px;
+  height: 1px;
+  margin: auto;
+  background-color: #ddd;
+}
+.login .login-container .card-body .login-body-main-form .login-body-form .login-forget-password {
+  text-align: center;
+  font-size: 14px;
+}
+.login .login-container .card-body .login-body-main-form .login-body-form .login-forget-password a {
+  color: rgb(27, 27, 134);
+  text-decoration: none;
+}
+.login .login-container .card-body .login-body-main-form .login-body-form-register {
+  padding: 10px 20px 10px;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
+.login .login-container .card-body .login-body-main-form .login-body-form-register .signup a {
+  color: rgb(27, 27, 134);
+  text-decoration: none;
+}
+.login .footer {
+  display: flex;
+  justify-content: right;
+  border: none;
+}
+.login .footer .card-body {
+  display: flex;
+  justify-content: right;
+}
+.login .footer .card-body .dropdown {
+  scale: 0.9;
+}
+
+@media only screen and (max-width: 1220px) {
+  .card-body {
+    display: flex !important;
+    justify-content: center;
+  }
+  .card-body .login-body-image {
+    display: none;
+  }
+  .card-body .login-body-main-form {
+    position: static;
+    right: auto !important;
+    margin: auto !important;
+  }
+}/*# sourceMappingURL=Login.css.map */
